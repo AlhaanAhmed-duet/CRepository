@@ -7,23 +7,14 @@ public class DupliNum {
         str = scanf.next();
         System.out.println("Your Text: " + str);
         int count = 0;
-        char charSet[] = str.toCharArray();
-        for (int i = 0; i < str.length(); i++) { 
-            for (int j = i + 1;j < str.length(); j++) {
-
-                if (charSet[i] == charSet[j]) {
-                    System.out.println("Duplicate characters are: " + charSet[j]);
-                    count++;
-                    // System.out.println(count);
-                    break;
-
-                }
+        char chars[] = str.toCharArray();
+        for (int i = 0; i < str.length(); i++) {
+            if (chars[i] == chars[i+1]) {
+                System.out.println("Duplicate character is : " + chars[i]);
+                count++;
+                break;
             }
         }
-    
-      
-        
-
         scanf.close();
     }
 }
