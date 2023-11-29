@@ -36,4 +36,5 @@ public class RemoveDupliChar {
       
         scan.close();
     }
+
 }
