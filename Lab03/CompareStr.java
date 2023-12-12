@@ -17,6 +17,10 @@ public class CompareStr {
         }
         else {
             System.err.println("Not equal");
+     
         }
+        sc.close();
     }
+
+
 }

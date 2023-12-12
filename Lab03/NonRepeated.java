@@ -20,6 +20,8 @@ public class NonRepeated {
                     System.out.println("The first char non repeated is : " + text.charAt(i));
                     break;
                 }
+
         }
+        sc.close();
     }
 }
